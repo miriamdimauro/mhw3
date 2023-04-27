@@ -1,0 +1,220 @@
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+  }  
+  
+html{
+  font-size: 30px;
+}
+
+  a {
+    font-size: 0.7rem;
+    background-color: rgb(106, 183, 230);
+    color: white;
+    padding: 5px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 40px;
+  }
+
+  nav a:hover{
+    color:whitesmoke;
+    background-color: rgb(154, 154, 255);
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(astronauta1.jpg);
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: -2;
+  }
+
+  
+  @media (max-width: 500px) {
+    header {
+      height: 300px;
+    }
+  }
+
+  #overlay {
+   background-color:rgba(0, 0, 0, 0.3);
+   position: absolute;
+   top: 0;
+   bottom: 0;
+   height: 100%;
+   width: 100%;
+   z-index: -1;
+  }
+
+  h1{
+    color: whitesmoke;
+    font-family: 'Bebas Neue', cursive;
+    width: 780 px;
+    text-align: center;
+  }
+
+  #profile{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    line-height: 120%;
+    margin-bottom: 13px;
+    font-size: 0.5rem;
+  }
+
+  #profile img {
+    height: 100px;
+    border-radius: 50%;
+    margin-top: -50px;
+    border: 3px solid whitesmoke;
+  }
+
+  #profile em{
+    border-bottom: 3px solid lightsteelblue;
+    padding-bottom: 10px;
+  }
+
+  #index {
+    margin-right: 40px;
+    font-family:  'Chakra Petch', sans-serif;
+    font-size: 1.5rem;
+    color: lightslategray;    
+  }
+ 
+  section{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 60px;
+  }
+
+  h2{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 1.5rem;
+    color: black; 
+    margin-top: 0px;   
+  }
+
+  h3{
+    font-size: 0.8rem;
+    color: rgb(8, 8, 108);
+    margin-top: -20px;
+  }
+  
+  .b{
+    width: 66.67%;
+  }
+
+  p {
+    font-family: 'Lora', serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 0.6rem;
+
+  }
+
+  h4{
+    font-family: 'Lora', serif;
+    margin: 20px;
+  }
+
+  section img {
+    height: 100%;
+    width: 100%;
+    margin-bottom: 60px;
+  }
+
+  article{
+    display: flex;
+    flex-direction: column;
+  }
+
+  footer{
+    font-size: 0.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    margin-top: 60px;
+  }
+
+
+  #galleria {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  #view1{
+    flex-wrap: wrap;
+  }
+  
+  .nome {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      margin: 50px;
+      border: 1px solid  lightslategray;
+      background-color: whitesmoke;
+      color: black;
+      padding: 5px;
+      max-width: 350px;
+      height: 500px;
+  }
+
+.foto {
+  max-width: 100%;
+  max-height: 75%;
+}
+
+#titolo {
+  font-family: 'Chakra Petch', sans-serif;
+  font-size: 70px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-top: 2px solid lightgray;
+}
+
+#libreria {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+
+.podcast {
+  font-size: 1.5rem;
+  color: black;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-bottom: 10px;
+  margin-top: 0px;
+}
+
+.description {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: black;
+  font-size:0.8rem;
+  margin-bottom: 10px;
+}
+
+#view2 img {
+  max-width: 30%;
+  max-height: 30%;
+  margin: 0px;
+}
+
